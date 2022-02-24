@@ -58,7 +58,8 @@ function Header() {
                                     { isLogged ? 
                                         //false
                                     <> 
-                                        <a className="nav-link hover-link" href="http://localhost:3000/Cadastrar">Perfil</a>
+                                        {/*<a className="nav-link hover-link" href="http://localhost:3000/Cadastrar">Perfil</a>*/}
+                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/login") }>Perfil</a>
                                         <a
                                             className="nav-link hover-link"
                                             onClick={ logout }
