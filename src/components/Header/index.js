@@ -70,7 +70,9 @@ function Header() {
                                         
                                         :
                                         // true
-                                        <a className="nav-link hover-link" href="http://localhost:3000/Login">Acessar</a>
+                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/login") }>Acessar</a>
+                                        //<a className="nav-link hover-link" href="http://localhost:3000/Login">Acessar</a>
+                                        
                                     }
                                 </div>
                             </div>
