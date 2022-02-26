@@ -25,15 +25,11 @@ function ApagarConta(){
             <main class="form-signin col-11 col-sm-8 col-md-6 col-lg-4 cor-form-cadastro d-flex flex-column align-items-center">
                 <h5 class="mt-3">Deseja deletar sua conta? </h5>
                 <div>
-                <button class="btn btn-success my-3 mx-2" onClick={ Userdelete }>Sim</button>
-                <a  class="btn btn-danger my-3 mx-2"  onClick={ ()=> navigateTo("/cadastrar") }>Não</a>
+                    <button class="btn btn-success my-3 mx-2" onClick={ Userdelete }>Sim</button>
+                    <a  class="btn btn-danger my-3 mx-2"  onClick={ ()=> navigateTo("/cadastrar") }>Não</a>
                 </div>
-                
-            
             </main>
         </section>
-
-
     )
 
 }

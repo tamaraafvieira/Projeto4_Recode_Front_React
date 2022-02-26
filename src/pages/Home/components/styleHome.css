@@ -165,8 +165,6 @@ body {
     background-size:  cover;
     background-repeat: no-repeat;
 
-    height: 800px;
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -175,10 +173,12 @@ body {
 .linha-10 {
     background-color: #000000c7;
 
-    height: max(50vw);
-
+    /*height: 900px;*/
+    margin-top: max(30px);
+    margin-bottom: max(30px);
     margin-right: 5%;
-    padding: 50px 6vw 0px 6vw;
+    /*padding: 50px 6vw 0px 6vw;*/
+    padding: 20px 50px;
     
     font-weight: 600;
 }
@@ -205,9 +205,11 @@ body {
     background-color: var(--cor-secundaria);
 }
 
+/*
 .container-titulo-contratar {
     height: 20vh;
 }
+*/
 
 .margin-parallax {
     height: 120px;
@@ -296,6 +298,12 @@ body {
 
 .contraste-img {
     filter: contrast(75%);
+}
+
+@media(min-width: 1750px) {
+    .img-tamanho {
+        height: 15vh;
+    }
 }
 /*Fim de estilizacao da pagina 4*/
 

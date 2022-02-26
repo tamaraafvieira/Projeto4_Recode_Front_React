@@ -127,13 +127,13 @@ function Formulario() {
 
                                     <div class="form-group">
                                         <label class="control-label" asp-for="Funcao1">FUNÇÃO?</label>
-                                        <input id="funcao" asp-for="Funcao1" type="text" placeholder="Digite a sua cidade/estado" class="form-control input-md mb-4"/>
+                                        <input id="funcao" asp-for="Funcao1" type="text" placeholder="Digite a sua função" class="form-control input-md mb-4"/>
                                         <span asp-validation-for="Funcao1" class="text-danger"></span>
                                     </div>    
 
                                     <div class="form-group">
                                         <label class="control-label" asp-for="Atividade1">ATIVIDADES?</label>
-                                        <input id="atividade" asp-for="Atividade1" type="text" placeholder="Digite o seu telefone" class="form-control input-md mb-4"/>
+                                        <input id="atividade" asp-for="Atividade1" type="text" placeholder="Digite a sua atividade" class="form-control input-md mb-4"/>
                                         <span asp-validation-for="Atividade1" class="text-danger"></span>
                                     </div>    
 
@@ -147,13 +147,13 @@ function Formulario() {
 
                                     <div class="form-group">
                                         <label class="control-label" asp-for="Funcao2">FUNÇÃO?</label>
-                                        <input id="funcao" asp-for="Funcao2" type="text" placeholder="Digite a sua cidade/estado" class="form-control input-md mb-4"/>
+                                        <input id="funcao" asp-for="Funcao2" type="text" placeholder="Digite a sua função" class="form-control input-md mb-4"/>
                                         <span asp-validation-for="Funcao2" class="text-danger"></span>
                                     </div>
 
                                     <div class="form-group">
                                         <label class="control-label" asp-for="Atividade2">ATIVIDADES?</label>
-                                        <input id="atividade" asp-for="Atividade2" type="text" placeholder="Digite o seu telefone" class="form-control input-md mb-4"/>
+                                        <input id="atividade" asp-for="Atividade2" type="text" placeholder="Digite a sua atividade" class="form-control input-md mb-4"/>
                                         <span asp-validation-for="Atividade2" class="text-danger"></span>
                                     </div>
 

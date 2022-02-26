@@ -26,8 +26,8 @@ function PorqueContratar() {
                 <div class="row">
                     <div class="col-12 my-5">
                         <div class="row g-1">
-                            <img class="col-sm-12 col-md-12 col-lg-6" src="./img/home/diversidade.jpg" alt=""/>
-                            <div class="col-sm-12 col-md-12 col-lg-6 text-white">
+                            <img class="col-sm-12 col-md-12 col-lg-6 col-xl-6 img-tamanho" src="./img/home/diversidade.jpg" alt=""/>
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 text-white">
                                 <h3 class="titulo-terciario text-justify ml-3 my-4">1. <span class="cor-terciaria">&lt;h2</span> Ambientes de trabalho mais feliz <span class="cor-terciaria">&gt;</span> = &lt; <span class="cor-terciaria-texto">Retenção de Talentos</span> &gt;; </h3>
                                 <p class="texto-terciario texto-ambientes-de-trabalho text-justify ml-4">
                                     <span class="cor-terciaria">&lt;P</span> uma saúde organizacional mais sólida quanto em resultados: empresas que adotam a diversidade têm uma probabilidade
@@ -45,7 +45,7 @@ function PorqueContratar() {
                 <div class="row">
                     <div class="col-12 my-5">
                         <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-6 text-white mt-4">
+                            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 text-white mt-4">
                                 <h3 class="titulo-terciario text-justify mt-2">2.<span class="cor-terciaria">&lt;h2</span> Alta nível de Inovação e Colaboração<span class="cor-terciaria">/&gt;</span> = &lt;<span class="cor-terciaria-texto">Alta performance</span>&gt;; </h3>
                                 <p class="texto-terciario texto-ambientes-de-trabalho text-justify mt-4 ">
                                     <span class="cor-terciaria">&lt;P</span> Essas pessoas têm a probabilidade de : <span class="cor-terciaria-texto">152%</span> maior de afirmar que podem propor novas ideias e tentar novas formas de fazer as coisas/&gt;.<br/><br/>
@@ -57,7 +57,7 @@ function PorqueContratar() {
                                     </div>
                                 </div>
                             </div>
-                            <img class="col-sm-12 col-md-12 col-lg-6 contraste-img" src="./img/home/colaboracao.jpg" alt=""/>
+                            <img class="col-sm-12 col-md-12 col-lg-6 col-xl-6 contraste-img img-tamanho" src="./img/home/colaboracao.jpg" alt=""/>
                         </div>
                     </div>
                 </div>

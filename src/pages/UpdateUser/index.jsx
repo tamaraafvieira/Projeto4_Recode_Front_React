@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { UserContext } from '../../context/userProvider';
 import { updateUser } from '../../services/update';
 
+import '../Cadastrar/components/Formulario/style.css';
+
 export const UpdateUser = () => {
     const navigate = useNavigate();
 
@@ -23,7 +25,7 @@ export const UpdateUser = () => {
     }
 
   return(
-    <div class="container-fluid">
+    <div class="container-fluid background">
         <section>
             <div class="container">
                 <div class="row d-flex justify-content-center">

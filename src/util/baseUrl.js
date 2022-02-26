@@ -1,1 +1,1 @@
-export const baseUrl = "https://blackcodebrasil-java.herokuapp.com";
+export const baseUrl = "http://localhost:8080";

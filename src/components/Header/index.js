@@ -58,8 +58,7 @@ function Header() {
                                     { isLogged ? 
                                         //false
                                     <> 
-                                        {/*<a className="nav-link hover-link" href="http://localhost:3000/Cadastrar">Perfil</a>*/}
-                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/cadastrar") }>Perfil</a>
+                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/cadsatrar")}>Perfil</a>
                                         <a
                                             className="nav-link hover-link"
                                             onClick={ logout }
@@ -70,9 +69,7 @@ function Header() {
                                         
                                         :
                                         // true
-                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/login") }>Acessar</a>
-                                        //<a className="nav-link hover-link" href="http://localhost:3000/Login">Acessar</a>
-                                        
+                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/login")}>Acessar</a>
                                     }
                                 </div>
                             </div>
