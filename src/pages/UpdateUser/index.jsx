@@ -25,12 +25,12 @@ export const UpdateUser = () => {
     }
 
   return(
-    <div class="container-fluid background">
+    <div className="container-fluid background">
         <section>
-            <div class="container">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-lg-12 d-flex justify-content-center my-2">
-                        <h1 class="titulo-principal cor-secundaria-texto my-5">
+            <div className="container">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-lg-12 d-flex justify-content-center my-2">
+                        <h1 className="titulo-principal cor-secundaria-texto my-5">
                             <strong>//Update</strong>
                         </h1>
                     </div>
@@ -51,25 +51,25 @@ export const UpdateUser = () => {
                                         id="Nome" 
                                         type="text" 
                                         placeholder="Digite seu nome completo" 
-                                        class="form-control input-md mb-4" 
+                                        className="form-control input-md mb-4" 
                                         required
                                         value={ userUpdate.name }
                                         onChange={ e => handleChange(e) }
                                     />
-                                    <span asp-validation-for="name" class="text-danger"></span>
+                                    <span asp-validation-for="name" className="text-danger"></span>
                                     <div className="valid-feedback">Preechimento válido</div>
                                     <div className="invalid-feedback">Campo Obrigatório</div>
                                 </div>
 
-                                {/* <div class="form-group">
-                                    <label asp-for="Imagem" class="control-label">Anexo</label><br/>
-                                    <input asp-for="Imagem" type="file" id="anexo" class="mb-4 form-control" accept="image/*" required/><br/>
-                                    <span asp-validation-for="Imagem" class="text-danger"></span>
-                                    <div class="valid-feedback">Preechimento válido</div>
-                                    <div class="invalid-feedback">Campo Obrigatório</div>
+                                {/* <div className="form-group">
+                                    <label asp-for="Imagem" className="control-label">Anexo</label><br/>
+                                    <input asp-for="Imagem" type="file" id="anexo" className="mb-4 form-control" accept="image/*" required/><br/>
+                                    <span asp-validation-for="Imagem" className="text-danger"></span>
+                                    <div className="valid-feedback">Preechimento válido</div>
+                                    <div className="invalid-feedback">Campo Obrigatório</div>
                                 </div> */}
 
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label for="job" className="control-label" for="">QUAL A SUA PROFISSÁO / NO QUE VOCÊ TRABALHA?</label>
                                     <select
                                         id="job" 
@@ -127,24 +127,24 @@ export const UpdateUser = () => {
                                     <div className="invalid-feedback">Campo Obrigatório</div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label class="control-label" for="email">QUAL O SEU E-MAIL?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="email">QUAL O SEU E-MAIL?</label>
                                     <input 
                                         id="email" 
                                         name="email" 
                                         type="email" 
                                         placeholder="Digite o seu email" 
-                                        class="form-control input-md mb-4" 
+                                        className="form-control input-md mb-4" 
                                         required
                                         value={ userUpdate.email }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="email" class="text-danger"></span>
-                                    <div class="valid-feedback">Preechimento válido</div>
-                                    <div class="invalid-feedback">Campo Obrigatório</div>
+                                    <span asp-validation-for="email" className="text-danger"></span>
+                                    <div className="valid-feedback">Preechimento válido</div>
+                                    <div className="invalid-feedback">Campo Obrigatório</div>
                                 </div>
 
-                                <div class="form-group">
+                                <div className="form-group">
                                     <label for="graduate" className="control-label">QUAL A SUA FORMAÇÃO?</label><br/>
                                     <select 
                                         name="graduate" 
@@ -212,98 +212,98 @@ export const UpdateUser = () => {
                                     <span asp-validation-for="funcao1" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                    <label class="control-label" for="atividade1">ATIVIDADES?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="atividade1">ATIVIDADES?</label>
                                     <input 
                                         id="atividade1" 
                                         name="atividade1" 
                                         type="text" 
                                         placeholder="Digite o seu telefone" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.atividade1 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="atividade1" class="text-danger"></span>
+                                    <span asp-validation-for="atividade1" className="text-danger"></span>
                                 </div>    
 
-                                    <p class="borda-cadastro">.</p>
+                                    <p className="borda-cadastro">.</p>
 
-                                <div class="form-group">
-                                    <label class="control-label" asp-for="local2">LOCAL?</label>
+                                <div className="form-group">
+                                    <label className="control-label" asp-for="local2">LOCAL?</label>
                                     <input 
                                         id="local" 
                                         name="local2" 
                                         type="text" 
                                         placeholder="Digite qual era o local" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.local2 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="local2" class="text-danger"></span>
+                                    <span asp-validation-for="local2" className="text-danger"></span>
                                 </div>
 
-                                <div class="form-group">
-                                    <label class="control-label" for="funcao2">FUNÇÃO?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="funcao2">FUNÇÃO?</label>
                                     <input 
                                         id="funcao2" 
                                         name="funcao2" 
                                         type="text" 
                                         placeholder="Digite a sua cidade/estado" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.funcao2 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="funcao2" class="text-danger"></span>
+                                    <span asp-validation-for="funcao2" className="text-danger"></span>
                                 </div>
 
-                                <div class="form-group">
-                                    <label class="control-label" asp-for="Atividade2">ATIVIDADES?</label>
+                                <div className="form-group">
+                                    <label className="control-label" asp-for="Atividade2">ATIVIDADES?</label>
                                     <input 
                                         id="atividade2" 
                                         name="atividade2" 
                                         type="text" 
                                         placeholder="Digite o seu telefone" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.atividade2 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="atividade2" class="text-danger"></span>
+                                    <span asp-validation-for="atividade2" className="text-danger"></span>
                                 </div>
 
-                                <h1 class="titulo-secundario my-5">CURSOS</h1>
+                                <h1 className="titulo-secundario my-5">CURSOS</h1>
 
-                                <div class="form-group">
-                                    <label class="control-label" for="instituicao1">INSTITUIÇÃO?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="instituicao1">INSTITUIÇÃO?</label>
                                     <input 
                                         id="instituicao" 
                                         name="instituicao1" 
                                         type="text" 
                                         placeholder="Digite o nome da instituição formadora" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.insituicao1 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="instituicao1" class="text-danger"></span>
+                                    <span asp-validation-for="instituicao1" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                    <label class="control-label" for="Carga_horaria1">CARGA HORÁRIA?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="Carga_horaria1">CARGA HORÁRIA?</label>
                                     <input 
                                         id="carga_horaria1" 
                                         name="carga_horaria1" 
                                         type="text" 
                                         placeholder="Digite a carga horária" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.carga_horaria1 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="carga_horaria1" class="text-danger"></span>
+                                    <span asp-validation-for="carga_horaria1" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                <label class="control-label" for="aprendeu1">O QUE APRENDEU?</label>
+                                <div className="form-group">
+                                <label className="control-label" for="aprendeu1">O QUE APRENDEU?</label>
                                 <textarea 
-                                        class="text-area-cadastro mb-4"
+                                        className="text-area-cadastro mb-4"
                                         id="aprendeu1" 
                                         name="aprendeu1" 
                                         maxlength="280" 
@@ -311,44 +311,44 @@ export const UpdateUser = () => {
                                         value={ userUpdate.aprendeu1 }
                                         onChange={ (e)=> handleChange(e) }  
                                 ></textarea>
-                                    <span asp-validation-for="aprendeu1" class="text-danger"></span>
-                                    <div class="invalid-feedback">Campo Obrigatório</div>
+                                    <span asp-validation-for="aprendeu1" className="text-danger"></span>
+                                    <div className="invalid-feedback">Campo Obrigatório</div>
                                 </div>  
 
-                                    <p class="borda-cadastro">.</p>
+                                    <p className="borda-cadastro">.</p>
 
-                                <div class="form-group">
-                                    <label class="control-label" for="Instituicao2">INSTITUIÇÃO?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="Instituicao2">INSTITUIÇÃO?</label>
                                     <input
                                         id="instituicao2" 
                                         name="instituicao2" 
                                         type="text" 
                                         placeholder="Digite o nome da instituição formadora" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.insituicao2 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="instituicao2" class="text-danger"></span>
+                                    <span asp-validation-for="instituicao2" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                    <label class="control-label" for="carga_horaria2">CARGA HORÁRIA?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="carga_horaria2">CARGA HORÁRIA?</label>
                                     <input 
                                         id="carga_horaria2" 
                                         name="carga_horaria2" 
                                         type="text" 
                                         placeholder="Digite a carga horária" 
-                                        class="form-control input-md mb-4"
+                                        className="form-control input-md mb-4"
                                         value={ userUpdate.carga_horaria2 }
                                         onChange={ (e)=> handleChange(e) }
                                     />
-                                    <span asp-validation-for="CargaHoraria2" class="text-danger"></span>
+                                    <span asp-validation-for="CargaHoraria2" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                    <label class="control-label" for="aprendeu2">O QUE APRENDEU?</label>
+                                <div className="form-group">
+                                    <label className="control-label" for="aprendeu2">O QUE APRENDEU?</label>
                                     <textarea 
-                                        class="text-area-cadastro mb-4"
+                                        className="text-area-cadastro mb-4"
                                         id="aprendeu2" 
                                         name="aprendeu2" 
                                         maxlength="280" 
@@ -356,13 +356,13 @@ export const UpdateUser = () => {
                                         value={ userUpdate.aprendeu2 }
                                         onChange={ (e)=> handleChange(e) }
                                     ></textarea>
-                                    <span asp-validation-for="Aprendeu2" class="text-danger"></span>
+                                    <span asp-validation-for="Aprendeu2" className="text-danger"></span>
                                 </div>    
 
-                                <div class="form-group">
-                                    <label class="control-label" for="Habilidades">HABILIDADES:</label><br/>
+                                <div className="form-group">
+                                    <label className="control-label" for="Habilidades">HABILIDADES:</label><br/>
                                     <textarea 
-                                        class="text-area-cadastro mb-4"
+                                        className="text-area-cadastro mb-4"
                                         name="habilidades"
                                         id="habilidades"
                                         maxlength="280"
@@ -370,14 +370,14 @@ export const UpdateUser = () => {
                                         value={ userUpdate.habilidades }
                                         onChange={ (e)=> handleChange(e) }
                                     ></textarea>
-                                    <span asp-validation-for="Habilidades" class="text-danger"></span>
+                                    <span asp-validation-for="Habilidades" className="text-danger"></span>
                                 </div>    
 
-                                <div class="row">
-                                    <div class="col-12 d-flex justify-content-center mb-5">
+                                <div className="row">
+                                    <div className="col-12 d-flex justify-content-center mb-5">
                                         <input 
                                             value="ENVIAR" 
-                                            class="btn btn-light btn-lg texto-botao texto-secundario" 
+                                            className="btn btn-light btn-lg texto-botao texto-secundario" 
                                             id="botao-enviar"
                                             onClick={ update }
                                         />
