@@ -4,10 +4,10 @@ import '../styleHome.css';
 function InfoBlack() {
     return(
         <article>
-            <div class="row container-black-code">
-                <div class="col-10 col-sm-9 col-md-6 col-lg-5 col-xl-5 linha-10">
-                    <h2 class="titulo-principal cor-terciaria-texto text-center">BLACK CODE BRASIL</h2><br/>
-                    <p class="texto-terciario cor-secundaria text-justify mb-5">
+            <div className="row container-black-code">
+                <div className="col-10 col-sm-9 col-md-6 col-lg-5 col-xl-5 linha-10">
+                    <h2 className="titulo-principal cor-terciaria-texto text-center">BLACK CODE BRASIL</h2><br/>
+                    <p className="texto-terciario cor-secundaria text-justify mb-5">
                         Conectamos pessoas negras da área de tecnologia com recrutadores e empresas
                         interessadas em contratar essa força de trabalho.<br/><br/>
 
