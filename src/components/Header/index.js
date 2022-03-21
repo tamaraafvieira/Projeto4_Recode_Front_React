@@ -58,7 +58,7 @@ function Header() {
                                     { isLogged ? 
                                         //false
                                     <> 
-                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/cadsatrar")}>Perfil</a>
+                                        <a className="nav-link hover-link" onClick={ ()=> navigateTo("/register")}>Perfil</a>
                                         <a
                                             className="nav-link hover-link"
                                             onClick={ logout }
