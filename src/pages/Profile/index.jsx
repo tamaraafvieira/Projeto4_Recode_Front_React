@@ -44,18 +44,18 @@ export const Profile = () => {
                     </div>
                 </div>
             </div>
-            <div className='container' style={{ display: 'flex', justifyContent: 'flex-end' }}>
+            <div className='container' {/* style={{ display: 'flex', justifyContent: 'flex-end' }} */} >
                 <button
                     className='update'
                     onClick={ ()=> navigateTo(navigate, "/updateUser") }
-                    style={{marginRight: '10px'}}
+                    {/* style={{marginRight: '10px'}} */} 
                 >
                     Atualizar perfil
                 </button>
                 {<button
                     className='update'
                     onClick={ ()=>  navigateTo(navigate, "/apagarConta") }  
-                    style={{marginRight: '10px'}}              
+                    {/* style={{marginRight: '10px'}}  */}             
                 >   
                     Deletar perfil
                 </button> 
@@ -80,14 +80,14 @@ export const Profile = () => {
                         <h1 className="titulo-principal">EXPERIÊNCIAS</h1><br/>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 pb-5 " style={{ marginLeft: "3%" }}>
+                        <div className="col-12 pb-5 " {/* style={{ marginLeft: "3%" }} */} >
                             <span className="texto-secundario">LOCAL:</span><span className="text-terciario "> { user.local1 }</span><br/><br/>
                             <span className="texto-secundario">FUNÇÃO:</span><span className="text-terciario "> { user.funcao1 }</span><br/><br/>
                             <span className="texto-secundario">ATIVIDADES:</span><span className="text-terciario "> { user.atividade1 }</span><br/>
                             {/* <p style={{ color: "#FFD79C" }} className="borda pb-5">.</p> */}
                         </div>
 
-                        <div className="col-12 text-terciario pb-5 " style={{ marginLeft: "3%" }}>
+                        <div className="col-12 text-terciario pb-5 "  {/* style={{ marginLeft: "3%" }} */} >
                             <span className="texto-secundario">LOCAL:</span><span className="text-terciario "> { user.local2 }</span><br/><br/>
                             <span className="texto-secundario">FUNÇÃO:</span><span className="text-terciario "> { user.funcao2 }</span><br/><br/>
                             <span className="texto-secundario">ATIVIDADES:</span><span className="text-terciario "> { user.atividade2 }</span><br/>
@@ -103,7 +103,7 @@ export const Profile = () => {
                         <h1 className="titulo-principal">CURSOS</h1><br/>
                     </div>
                     <div className="row justify-content-center">
-                        <div className="col-12 pb-5 " style={{ marginLeft: "3%" }}>
+                        <div className="col-12 pb-5 " {/* style={{ marginLeft: "3%" }} */} >
                             <span className="texto-secundario">INSTITUIÇÃO:</span>
                             <span className="text-terciario "> { user.instituicao1 }</span><br/><br/>
                             <span className="texto-secundario">CARGA HORÁRIA:</span>
@@ -113,7 +113,7 @@ export const Profile = () => {
                             {/* <p style={{ color: "rgba(174, 241, 255, 1)" }} className="borda pb-5">.</p> */}
                         </div>
 
-                        <div className="col-12 text-terciario pb-5 " style={{ marginLeft: "3%" }}>
+                        <div className="col-12 text-terciario pb-5 " {/* style={{ marginLeft: "3%" }} */} >
                             <span className="texto-secundario">INSTITUIÇÃO:</span>
                             <span className="text-terciario "> { user.instituicao2 }</span><br/><br/>
                             <span className="texto-secundario">CARGA HORÁRIA:</span>
