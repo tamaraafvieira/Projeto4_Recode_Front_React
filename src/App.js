@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Materias from "./pages/Conteudos/Materias";
 import Podcasts from "./pages/Conteudos/Podcasts";
 import Contratar from "./pages/Contratar";
-import Cadastrar from "./pages/Cadastrar";
+//import Cadastrar from "./pages/Cadastrar";
 import Login from "./pages/Login";
 import CadastroLogin from "./pages/CadastroLogin";
 import Talentos from "./pages/Talentos";
@@ -13,7 +13,7 @@ import Talentos from "./pages/Talentos";
 import ApagarConta from "./pages/ApagarConta";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import { Profile } from "./pages/Profile";
+import { Profile } from "./pages/Profile";
 import { UpdateUser } from './pages/UpdateUser';
 
 
@@ -31,7 +31,7 @@ function App() {
         <Route path="/talentos" element={ <Talentos/> } />
         <Route path="/login" element={ <Login/> } />
         <Route path="/cadastroLogin" element={ <CadastroLogin/> } />
-        <Route path="/cadastrar" element={ <Cadastrar/> } />
+        <Route path="/cadastrar" element={ <Profile/> } />
         <Route path="/updateUser" element={ <UpdateUser/> } />
         <Route path="/apagarConta" element={ <ApagarConta/> } />
       </Routes>
