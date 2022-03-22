@@ -15,6 +15,7 @@ import ApagarConta from "./pages/ApagarConta";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Profile } from "./pages/Profile";
 import { UpdateUser } from './pages/UpdateUser';
+import { Profile } from "./pages/Profile";
 
 
 function App() {
